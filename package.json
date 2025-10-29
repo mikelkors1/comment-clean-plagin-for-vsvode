@@ -1,0 +1,21 @@
+{
+    "name": "clean-cpp-comments",
+    "displayName": "Clean C++ Comments",
+    "description": "Удаляет комментарии из C++ кода (однострочные, многострочные или все)",
+    "version": "1.0.0",
+    "engines": {
+    "vscode": "^1.60.0"
+    },
+    "activationEvents": [
+        "onCommand:cleanCppComments.clean"
+    ],
+    "main": "./extension.js",
+    "contributes": {
+        "commands": [
+        {
+            "command": "cleanCppComments.clean",
+            "title": "Clean C++ Comments"
+        }
+        ]
+    }
+}
